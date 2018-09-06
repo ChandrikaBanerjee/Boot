@@ -1,5 +1,6 @@
 package com.demo.rest.service;
 
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,8 +8,8 @@ import org.springframework.stereotype.Service;
 
 import com.demo.rest.dao.EmployeeDAO;
 import com.demo.rest.dao.EmployeeDAOMongo;
-import com.demo.rest.pojo.Employee;
 import com.demo.rest.pojo.EmployeeForMongo;
+
 
 @Service
 public class EmployeeMongoService {
